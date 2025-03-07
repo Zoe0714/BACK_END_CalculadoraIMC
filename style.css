@@ -22,7 +22,7 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 50%;
+  height: 50px;
   font: bold 2.5rem serif;
   border-bottom: solid 5px black;
   margin-bottom: 20px;
@@ -32,7 +32,7 @@ main {
   display: flex;
   width: 300px;
   height: 50px;
-  justify-self: space-between;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -54,7 +54,8 @@ main {
   width: 300px;
   height: 40px;
   font: bold 1.2rem serif;
-  background: rgb(125, 57, 81);
+  background: #000;
+  color: rgb(125, 57, 81);
   outline: none;
   border-radius: 5px;
   cursor: pointer;
